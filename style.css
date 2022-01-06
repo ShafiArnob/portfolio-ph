@@ -74,7 +74,7 @@ p{
   padding: 1.8em 1.5em;
   border-radius: 8%;
 }
-.card img{
+.s2 .card img{
   width: 160px;
   padding: 5px;
 }
@@ -117,6 +117,7 @@ p{
 }
 .s4 .left{
   padding: 1em;
+  margin-top: 4%;
   margin-left: 1em;
 }
 .s4 .left p{
@@ -125,4 +126,31 @@ p{
 }
 .s4 .right img{
   width: 400px;
+}
+
+/* section 5 */
+.s5 h1{
+  text-align: center;
+}
+.s5 .card img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.s5 .card h2{
+  text-align: center;
+}
+/* Footer */
+footer{
+  /* display: block; */
+  text-align: center;
+  background-color: #02021a;
+  padding: 3em 0;
+}
+footer h1{
+  color: white;
+  margin-bottom: 20px;
+}
+footer p{
+  color: white;
 }
