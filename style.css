@@ -37,17 +37,18 @@ p{
   padding: 2em;
 }
 .s1 .left{
-  /* border: 1px dotted red; */
   width: 40%;
-  margin-left: 5em;
-  margin-top: 9em;
+  margin: auto auto;
   margin-right: 5em;
 }
 .s1 .left p{
   margin-top: 1em;
   margin-bottom: 2em;
 }
-.right img{
+.s1 .right{
+  margin: auto auto;
+}
+.s1 .right img{
   width: 28em;
   margin-left: 50px;
 }
@@ -93,16 +94,35 @@ p{
 /* Section 3 */
 .s3{
   margin-top: 60px;
+  margin-bottom: 60px;
 }
-.left{
+.s3 .left{
   margin-right: 8%;
 }
 .s3 .left img{
   width: 400px;
 }
-.right{
+.s3 .right{
   margin-top: 4%;
 }
-.right p{
-  padding: 2em 0;
+.s3 .right p{
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+/* Section 4 */
+.s4{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.s4 .left{
+  padding: 1em;
+  margin-left: 1em;
+}
+.s4 .left p{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.s4 .right img{
+  width: 400px;
 }
